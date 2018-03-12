@@ -264,9 +264,6 @@ function start() {
     }
     function checkX(map){
         // puts x's back in the location if theres a blank
-        let rowSix = map[6];
-        let rowSeven = map[7];
-        let rowEight = map[8];
         
         if (map[6][16] == " ") {
             let point = map[6].split('');
